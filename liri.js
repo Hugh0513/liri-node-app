@@ -38,17 +38,8 @@ var Spotify = require('node-spotify-api');
 var nodeArgs = process.argv; // user input 
 
 if (process.argv.length < 3) {
-	// Displaying how to use when command is not input.
-	console.log("");
-	console.log("Please input command.");
-	console.log("");
-	console.log(" How to use: ");
-	console.log("  node liri.js my-tweets");
-	console.log("  node liri.js spotify-this-song 'song name here'");
-	console.log("  node liri.js movie-this 'movie name here'");
-	console.log("  node liri.js do-what-it-says");
-	console.log("");
-
+	console.log("\nPlease input command.\n");
+	howToUse();
 }
 else {
 
@@ -106,6 +97,16 @@ function mainTask(command, searchWord) {
 	}
 }
 
+function howToUse() {
+	// Displaying how to use when command is not input.
+	console.log(" How to use: ");
+	console.log("  node liri.js my-tweets");
+	console.log("  node liri.js spotify-this-song 'song name here'");
+	console.log("  node liri.js movie-this 'movie name here'");
+	console.log("  node liri.js do-what-it-says");
+	console.log("");
+}
+
 /*** default ***/
 function def(){
 
@@ -113,6 +114,8 @@ function def(){
 
 	// print on display
 	console.log(printData);
+
+	howToUse();
 
 	// logging into log.txt
 	fs.appendFile("log.txt", printData, function(error) {
@@ -223,7 +226,7 @@ function mov(movieName) {
 		movieName = "Mr. Nobody";
 	}
 
-	var apikey = "40e9cece"
+	var apikey = "40e9cece";
 	var reqURL = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=" + apikey;
 
 	request(reqURL, function(error, response, body) {

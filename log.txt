@@ -372,3 +372,72 @@ Language: English, Icelandic
 Plot: When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
 Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
 ----------------------------
+****************************************
+Monday, Oct 30, 2017, 11:29 PM: movie-this the dark knight
+
+Here's what I found on OMDB for 'the dark knight':
+----------------------------
+Title: The Dark Knight
+Year: 2008
+Rating: 9.0
+Country: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+----------------------------
+****************************************
+Monday, Oct 30, 2017, 11:30 PM: movie-this shallows
+
+Here's what I found on OMDB for 'shallows':
+----------------------------
+Title: Shallows
+Year: 2013
+Rating: N/A
+Country: USA
+Language: English
+Plot: What happens when everything you once believed in is gone? The film follows people trying to find their faith again- in each other, in God, and in the great water tower that watches over their town.
+Actors: Jake Robbins, Matthew James Ballinger, Katherine Barron, Ian McCue
+----------------------------
+****************************************
+Monday, Oct 30, 2017, 11:30 PM: movie-this the shallows
+
+Here's what I found on OMDB for 'the shallows':
+----------------------------
+Title: The Shallows
+Year: 2016
+Rating: 6.3
+Country: USA, Australia, Spain
+Language: English, Spanish
+Plot: A mere 200 yards from shore, surfer Nancy is attacked by a great white shark, with her short journey to safety becoming the ultimate contest of wills.
+Actors: Blake Lively, Óscar Jaenada, Angelo Josue Lozano Corzo, Joseph Salas
+----------------------------
+****************************************
+Monday, Oct 30, 2017, 11:32 PM: spotify-song-this 
+
+I'm not sure I understand.
+****************************************
+Monday, Oct 30, 2017, 11:32 PM: spotify-this-song 
+
+Here's what I found on Spotify for 'The Sign':
+----------------------------
+Artist: Ace of Base
+Song name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=21ef337f7d4847e5804944cb1f780356
+Album: The Sign (US Album) [Remastered]
+----------------------------
+total: 1
+****************************************
+Monday, Oct 30, 2017, 11:35 PM: spotify-this-song 
+
+Here's what I found on Spotify for 'The Sign':
+----------------------------
+Artist: Ace of Base
+Song name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=21ef337f7d4847e5804944cb1f780356
+Album: The Sign (US Album) [Remastered]
+----------------------------
+total: 1
+****************************************
+Monday, Oct 30, 2017, 11:35 PM: spotify-this-son 
+
+I'm not sure I understand.
