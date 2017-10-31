@@ -200,11 +200,12 @@ function spo(songName) {
 			}
 		}
 
-		//console.log("total: " + cnt);
 		printData += "total: " + cnt + "\n";
+
+		// printing on display
 		console.log(printData);
 
-		// logging th data to log.txt. It isn't logged unless this is in spotify search.
+		// logging the data to log.txt. It isn't logged unless this is in spotify search.
 		fs.appendFile("log.txt", printData, function(error) {
 			if (error) {
 				return console.log(error);
