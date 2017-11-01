@@ -441,3 +441,51 @@ total: 1
 Monday, Oct 30, 2017, 11:35 PM: spotify-this-son 
 
 I'm not sure I understand.
+****************************************
+Tuesday, Oct 31, 2017, 9:47 PM: my-tweets 
+
+Here's Hugh0513's tweets:
+----------------------------
+Hello twitter. This is my first tweet.
+----------------------------
+****************************************
+Tuesday, Oct 31, 2017, 9:47 PM: spotify-this-song 
+
+Here's what I found on Spotify for 'The Sign':
+----------------------------
+Artist: Ace of Base
+Song name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=21ef337f7d4847e5804944cb1f780356
+Album: The Sign (US Album) [Remastered]
+----------------------------
+total: 1
+****************************************
+Tuesday, Oct 31, 2017, 9:48 PM: spotify-this-son 
+
+I'm not sure I understand.
+****************************************
+Tuesday, Oct 31, 2017, 9:48 PM: spotify-this-song californication
+
+Here's what I found on Spotify for 'californication':
+----------------------------
+Artist: Red Hot Chili Peppers
+Song name: Californication
+Preview: https://p.scdn.co/mp3-preview/175ce440229d2fb5361756f3e68c9647b86a8eee?cid=21ef337f7d4847e5804944cb1f780356
+Album: Californication (Deluxe Version)
+----------------------------
+Artist: Red Hot Chili Peppers
+Song name: Californication
+Preview: https://p.scdn.co/mp3-preview/175ce440229d2fb5361756f3e68c9647b86a8eee?cid=21ef337f7d4847e5804944cb1f780356
+Album: Californication
+----------------------------
+Artist: Syn Cole
+Song name: Californication
+Preview: https://p.scdn.co/mp3-preview/177e550d057e3ab84cb68d622a560beea3e6cb73?cid=21ef337f7d4847e5804944cb1f780356
+Album: Californication
+----------------------------
+Artist: Red Hot Chili Peppers
+Song name: Californication
+Preview: https://p.scdn.co/mp3-preview/175ce440229d2fb5361756f3e68c9647b86a8eee?cid=21ef337f7d4847e5804944cb1f780356
+Album: Greatest Hits (PA Version-Jewelcase)
+----------------------------
+total: 4

@@ -1,31 +1,12 @@
 /************** Import Keys *****************/
 var keyList = require('./keys.js');
 
-for (var key in keyList) {
-
-	// Keys for Twitter
-	if (key === "consumer_key") {
-		var consumer_key = keyList[key];
-	}
-	if (key === "consumer_secret") {
-		var consumer_secret = keyList[key];
-	}
-	if (key === "access_token_key") {
-		var access_token_key = keyList[key];
-	}
-	if (key === "access_token_secret") {
-		var access_token_secret = keyList[key];
-	}
-
-	// Keys for Spotify
-	if (key === "client_id") {
-		var client_id = keyList[key];
-	}
-	if (key === "client_secret") {
-		var client_secret = keyList[key];
-	}
-
-}
+var consumer_key = keyList.twitterKeys.consumer_key;
+var consumer_secret = keyList.twitterKeys.consumer_secret;
+var access_token_key = keyList.twitterKeys.access_token_key;
+var access_token_secret = keyList.twitterKeys.access_token_secret;
+var client_id = keyList.spotifyKeys.client_id;
+var client_secret = keyList.spotifyKeys.client_secret;
 /************** End of Import Keys ***********/
 
 /************** Include NPM packages **********/
