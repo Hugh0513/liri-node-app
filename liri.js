@@ -219,7 +219,16 @@ function mov(movieName) {
 		if (!error && response.statusCode === 200) {
 
 		  	//console.log(JSON.stringify(response, null, 2));
-		  	//console.log(JSON.stringify(JSON.parse(body), null, 2));
+		  	//sconsole.log(JSON.stringify(JSON.parse(body), null, 2));
+
+		  	// This process can get Rotten Tomatoes Rating correctly even when the order in the array changes.
+		  	var ratings = JSON.parse(body).Ratings;
+		  	var rottenRate = "";
+		  	for (var i=0; i < ratings.length; i++) {
+		  		if (ratings[i].Source === "Rotten Tomatoes"){
+		  			rottenRate = ratings[i].Value;
+		  		}
+		  	}
 
 			printData += "\nHere's what I found on OMDB for '" + movieName + "':\n";
 			printData += "----------------------------\n";
@@ -227,7 +236,8 @@ function mov(movieName) {
 			printData += "Title: " + JSON.parse(body).Title + "\n";
 			printData += "Year: " + JSON.parse(body).Year + "\n";
 			printData += "IMDB Rating: " + JSON.parse(body).imdbRating + "\n";
-			printData += "Rotten Tomatos Rating: " + JSON.parse(body).Ratings[1].Value + "\n";
+			//printData += "Rotten Tomatos Rating: " + JSON.parse(body).Ratings[1].Value + "\n";
+			printData += "Rotten Tomatos Rating: " + rottenRate + "\n";
 			printData += "Country: " + JSON.parse(body).Country + "\n";
 			printData += "Language: " + JSON.parse(body).Language + "\n";
 			printData += "Plot: " + JSON.parse(body).Plot + "\n";
