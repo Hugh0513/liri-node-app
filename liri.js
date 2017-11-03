@@ -31,6 +31,7 @@ else {
 	for (var i = 3; i < nodeArgs.length; i++) {
 		searchWord += " " + nodeArgs[i].toLowerCase(); // Song name or Movie name
 	}
+	//searchWord = process.argv[2].join();
 
 	searchWord = searchWord.trim();// This is neccesary because there is a space in front of searchWord.
 
@@ -203,6 +204,8 @@ function spo(songName) {
 /*** movie-this ***/
 function mov(movieName) {
 
+	//movieName = movieName.replace(/\s*/, "+");
+
 	if (movieName === "") {
 		movieName = "Mr. Nobody";
 	}
@@ -216,13 +219,15 @@ function mov(movieName) {
 		if (!error && response.statusCode === 200) {
 
 		  	//console.log(JSON.stringify(response, null, 2));
+		  	//console.log(JSON.stringify(JSON.parse(body), null, 2));
 
 			printData += "\nHere's what I found on OMDB for '" + movieName + "':\n";
 			printData += "----------------------------\n";
 
 			printData += "Title: " + JSON.parse(body).Title + "\n";
 			printData += "Year: " + JSON.parse(body).Year + "\n";
-			printData += "Rating: " + JSON.parse(body).imdbRating + "\n";
+			printData += "IMDB Rating: " + JSON.parse(body).imdbRating + "\n";
+			printData += "Rotten Tomatos Rating: " + JSON.parse(body).Ratings[1].Value + "\n";
 			printData += "Country: " + JSON.parse(body).Country + "\n";
 			printData += "Language: " + JSON.parse(body).Language + "\n";
 			printData += "Plot: " + JSON.parse(body).Plot + "\n";
