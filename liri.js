@@ -31,8 +31,8 @@ else {
 	for (var i = 3; i < nodeArgs.length; i++) {
 		searchWord += " " + nodeArgs[i].toLowerCase(); // Song name or Movie name
 	}
-	//searchWord = process.argv[2].join();
-
+	
+	console.log(searchWord);
 	searchWord = searchWord.trim();// This is neccesary because there is a space in front of searchWord.
 
 	// getting the current time
